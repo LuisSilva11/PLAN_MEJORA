@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/juego1.css">
+    <title>DEPORTES</title>
 </head>
 <body>
-    <h1>juego4</h1>
+    <center>
+    <form action="">
+        <!--Primera Pregunta-->
+        <div class="form-group">
+            <h1>DEPORTES</h1>
+            <label> <b>¿CUÁL FUE LA PRIMERA GRABACIÓN DE ROCK AND ROLL?</b> </label><br>
+
+            <select class="form-control" id="grafo" name="grafo">
+                <option value="0">Seleccione la respuesta correcta</option>
+                <option value="1">Una canción de Chuck Berry</option>
+                <option value="2">Una canción de Elvis Presley</option>
+                <option value="3">Una canción de Little Richard</option>
+                <option value="4">Una canción de Bill Haley</option>
+                </select>   
+        </div>
+
+
+        <!--Segunda Pregunta-->
+        <div class="form-group">
+            <label><b>¿CUÁL DE ESTAS CANCIONES NO ES DE QUEEN?</b></label><br>
+
+            <select class="form-control" id="second" name="second">
+                <option value="0">Seleccione la respuesta correcta</option>
+                <option value="1">Don't Stop me now</option>
+                <option value="2">Tie your mother down</option>
+                <option value="3">Where are we now?</option>
+                <option value="4"> These are the days of our lives</option>
+            </select>
+        </div>
+
+        <!--Tercera Pregunta-->
+
+        <div class="form-group">
+            <label><b>¿EN QUE PAIS SE CREO EL REGGAETON?</b></label><br>
+
+
+            <select id="datebd" class="form-control"name="bd">
+                <option value="0">Seleccione la respuesta correcta</option>
+                <option value="1">Colombia</option>
+                <option value="2">Panama</option>
+                <option value="3">Estados Unidos</option>
+                <option value="4">Puerto Rico</option>
+            </select>
+        </div>
+
+        <!--Cuarta Pregunta-->
+        <div class="form-group">
+            <label><b>¿DE QUÉ BANDA ES LA CONOCIDA CANCIÓN «DE MÚSICA LIGERA»?</b></label><br>
+
+            <select id="componentes" class="form-control">
+                <option value="0">Seleccione la respuesta correcta</option>
+                <option value="1">La Mosca Tsé-Tsé</option>
+                <option value="2">Los Fabulosos Cadillacs</option>
+                <option value="3">Soda Stereo</option>
+                <option value="4">Enanitos Verdes</option>
+            </select>
+        </div>
+
+        <!--Quinta Pregunta-->
+
+        <div class="form-group">
+            <label><b>¿«HEY JUDE» ES UNA CANCIÓN DE LA FAMOSA BOY-BAND?</b></label><br>
+
+            <select id="bdnor" class="form-control" >
+                <option value="0">Seleccione la respuesta correcta</option>
+                <option value="1">The Beatles</option>
+                <option value="2">The Beach Boys</option>
+                <option value="3">The Mamas and the Papas</option>
+                <option value="4">ACDC</option>
+            </select>
+           
+        </div>
+    </form>
+</center>
+    <script src="js/juego1.js"></script>
 </body>
 </html>

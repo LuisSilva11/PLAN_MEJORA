@@ -34,7 +34,7 @@ function Mensaje() {
     }
     if (SegmentoSeleccionado.text == "Deportes") {
         alert("Listo para la  " + SegmentoSeleccionado.text);
-        window.location.href = "/juego5";
+        window.location.href = "/juego4";
     }
 
     miRuleta.stopAnimation(false);
