@@ -1,4 +1,11 @@
-.button {
+body {
+    background-image: url(../images/criss-cross.png);
+}
+a{
+    text-decoration: none;
+
+}
+.button, .buttonn {
     width: 177px;
     height: 57px;
     font-family: 'Roboto', sans-serif;
@@ -24,5 +31,6 @@
 .titulo {
     text-align: center;
     color: rgb(185, 38, 38);
+    margin-top: 2rem;
     font-family: 'Merriweather', serif;
 }
