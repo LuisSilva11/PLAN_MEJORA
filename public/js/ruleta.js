@@ -1,12 +1,11 @@
 let miRuleta = new Winwheel({
 
-    'numSegments': 5,
+    'numSegments': 4,
     'outerRadius': 270,
     'segments': [
-        { 'fillStyle': '#f1c40f', 'text': 'Pregunta 1' },
-        { 'fillStyle': '#2ecc71', 'text': 'Pregunta 2' },
-        { 'fillStyle': '#e67e22', 'text': 'Pregunta 3' },
-        { 'fillStyle': '#e74c3c', 'text': 'Pregunta 4' },
+        { 'fillStyle': '#f1c40f', 'text': 'Cultura General' },
+        { 'fillStyle': '#2ecc71', 'text': 'Musica' },
+        { 'fillStyle': '#e67e22', 'text': 'Geografia' },
         { 'fillStyle': '#8e44ad', 'text': 'Pregunta 5' },
 
     ],
@@ -21,21 +20,17 @@ let miRuleta = new Winwheel({
 dibujarIndicador();
 function Mensaje() {
     let SegmentoSeleccionado = miRuleta.getIndicatedSegment();
-    if (SegmentoSeleccionado.text == "Pregunta 1") {
+    if (SegmentoSeleccionado.text == "Cultura General") {
         alert("Listo para la  " + SegmentoSeleccionado.text);
         window.location.href = "/juego1";
     }
-    if (SegmentoSeleccionado.text == "Pregunta 2") {
+    if (SegmentoSeleccionado.text == "Musica") {
         alert("Listo para la  " + SegmentoSeleccionado.text);
         window.location.href = "/juego2";
     }
-    if (SegmentoSeleccionado.text == "Pregunta 3") {
+    if (SegmentoSeleccionado.text == "Geografia") {
         alert("Listo para la  " + SegmentoSeleccionado.text);
         window.location.href = "/juego3";
-    }
-    if (SegmentoSeleccionado.text == "Pregunta 4") {
-        alert("Listo para la  " + SegmentoSeleccionado.text);
-        window.location.href = "/juego4";
     }
     if (SegmentoSeleccionado.text == "Pregunta 5") {
         alert("Listo para la  " + SegmentoSeleccionado.text);
