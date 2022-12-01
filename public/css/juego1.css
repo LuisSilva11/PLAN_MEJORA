@@ -1,3 +1,4 @@
+
 .form-group {
     margin: 1rem;
 }
@@ -28,33 +29,40 @@ nav img {
 h1,
 h2 {
     margin-top: 2rem;
-    font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 50px;
     margin-bottom: 2rem;
-    color: rgb(1, 66, 28);
+    color: rgb(185, 38, 38);
 }
 
-a {
+label {
     text-decoration: none;
     margin-left: 1rem;
-    color: rgb(19, 165, 109);
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
     color: rgb(13, 127, 74);
 }
 
-select.form-control {
-    border-radius: 16px;
-}
-
 select.form-control:focus {
-    border-color: rgb(37, 184, 115);
-    box-shadow: -1px -1px 6px -2px rgb(78, 210, 137);
+    border-color: rgb(185, 38, 38);
+    box-shadow: -1px -1px 6px -2px rgb(185, 38, 38);
     transform: translateY(-3px);
-
 }
-
+select{
+    box-shadow: 0px 3px 0px #dc3545;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    border: 1px solid ;
+    color: black;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
 .wrap {
     height: 100%;
     display: flex;
@@ -73,7 +81,7 @@ select.form-control:focus {
     letter-spacing: 2.5px;
     font-weight: 500;
     color: rgb(250, 250, 250);
-    background-color: rgb(20, 179, 92);
+    background-color: rgb(185, 38, 38);
     border: none;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -84,7 +92,7 @@ select.form-control:focus {
 
 .button:hover {
     background-color: #ffffff;
-    box-shadow: 0px 15px 20px rgba(46, 229, 144, 0.4);
-    color: rgb(5, 0, 0);
+    box-shadow: 0px 15px 20px rgb(185, 38, 38);
+    color: rgb(185, 38, 38);
     transform: translateY(-7px);
 }

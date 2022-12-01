@@ -3,15 +3,15 @@ let miRuleta = new Winwheel({
     'numSegments': 4,
     'outerRadius': 270,
     'segments': [
-        { 'fillStyle': '#f1c40f', 'text': 'Cultura General' },
-        { 'fillStyle': '#2ecc71', 'text': 'Musica' },
-        { 'fillStyle': '#e67e22', 'text': 'Geografia' },
-        { 'fillStyle': '#8e44ad', 'text': 'Pregunta 5' },
+        { 'fillStyle': '#ECFF00', 'text': 'Cultura General' },
+        { 'fillStyle': '#F90E0E', 'text': 'Musica' },
+        { 'fillStyle': '#00D8FF', 'text': 'Geografia' },
+        { 'fillStyle': '#5DFF00', 'text': 'Deportes' },
 
     ],
     'animation': {
         'type': 'spinToStop',
-        'duration': 6,
+        'duration': 5,
         'callbackFinished': 'Mensaje()',
         'callbackAfter': 'dibujarIndicador()'
     }
@@ -32,7 +32,7 @@ function Mensaje() {
         alert("Listo para la  " + SegmentoSeleccionado.text);
         window.location.href = "/juego3";
     }
-    if (SegmentoSeleccionado.text == "Pregunta 5") {
+    if (SegmentoSeleccionado.text == "Deportes") {
         alert("Listo para la  " + SegmentoSeleccionado.text);
         window.location.href = "/juego5";
     }

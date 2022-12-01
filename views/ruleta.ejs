@@ -6,25 +6,26 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/ruleta.css">
+    <title>Ruleta</title>
     <script src="js/Winwheel.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                    <h1>Evaluando los conocimientos adquiridos</h1> <br>
-                    <input type="button" value="Girar" onclick="miRuleta.startAnimation();"
-                        class="btn btn-success btn-lg" style="width: 200px;margin-left: 0px;border: 2px solid #ffffff">
-            </div>
-            <div class="col-md-6">
-                <canvas id="canvas" height="600px" width="600px"></canvas>
+    <center>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1 class="titulo">¡GIRA LA RULETA!</h1> <br>
+                </div>
+                <div class="col-md-3">
+                    <canvas id="canvas" height="600px" width="600px"></canvas>
+                </div>
+                <input type="button" value="Girar" onclick="miRuleta.startAnimation();" class="button">
             </div>
         </div>
-    </div>
-
+    </center>
     <script src="js/ruleta.js"></script>
 
 </body>
