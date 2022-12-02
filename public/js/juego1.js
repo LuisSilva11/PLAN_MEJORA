@@ -7,15 +7,14 @@ const primero = document.querySelector("#primero")
 
 console.log(first);
 
-
 first.addEventListener('change', ()=>{
     let valorOption = first.value;
     console.log(valorOption);
 
     if(valorOption ==1){
-        alert("FELICIDADES RESPONDISTE CORRECTAMENTE")
+        Swal.fire({ text:`Ganaste la buena`,icon:'success'})
     }else{
-        alert("NADA QUE HACER")
+        Swal.fire({ text:`Nada que hacer`,icon:'error'})
     }
 })
 
@@ -24,9 +23,9 @@ second.addEventListener('change', ()=>{
     console.log(valorOption);
 
     if(valorOption ==3){
-        alert("FELICIDADES RESPONDISTE CORRECTAMENTE")
+        Swal.fire({ text:`Ganaste la buena`,icon:'success'})
     }else{
-        alert("NADA QUE HACER")
+        Swal.fire({ text:`Nada que hacer`,icon:'error'})
     }
 })
 
@@ -35,9 +34,9 @@ tercero.addEventListener('change', ()=>{
     console.log(valorOption);
 
     if(valorOption ==4){
-        alert("FELICIDADES RESPONDISTE CORRECTAMENTE")
+        Swal.fire({ text:`Ganaste la buena`,icon:'success'})
     }else{
-        alert("NADA QUE HACER")
+        Swal.fire({ text:`Nada que hacer`,icon:'error'})
     }
 })
 
@@ -46,9 +45,9 @@ four.addEventListener('change', ()=>{
     console.log(valorOption);
 
     if(valorOption ==3){
-        alert("FELICIDADES RESPONDISTE CORRECTAMENTE")
+        Swal.fire({ text:`Ganaste la buena`,icon:'success'})
     }else{
-        alert("NADA QUE HACER")
+        Swal.fire({ text:`Nada que hacer`,icon:'error'})
     }
 })
 
@@ -57,8 +56,8 @@ five.addEventListener('change', ()=>{
     console.log(valorOption);
 
     if(valorOption ==1){
-        alert("FELICIDADES RESPONDISTE CORRECTAMENTE")
+        Swal.fire({ text:`Ganaste la buena`})
     }else{
-        alert("NADA QUE HACER")
+        Swal.fire({ text:`Nada que hacer`,icon:'error'})
     }
 })

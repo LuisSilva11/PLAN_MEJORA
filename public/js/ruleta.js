@@ -21,20 +21,32 @@ dibujarIndicador();
 function Mensaje() {
     let SegmentoSeleccionado = miRuleta.getIndicatedSegment();
     if (SegmentoSeleccionado.text == "Cultura General") {
-        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
-        window.location.href = "/juego1";
+        Swal.fire({ text:`Listo para la Trivia de ${SegmentoSeleccionado.text}`})
+        setTimeout(() => {
+            window.location.href = "/juego1";
+        }, 2000);
+        
     }
     if (SegmentoSeleccionado.text == "Musica") {
-        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
-        window.location.href = "/juego2";
+        Swal.fire({ text:`Listo para la Trivia de ${SegmentoSeleccionado.text}`})
+        setTimeout(() => {
+            window.location.href = "/juego2";
+        }, 2000);
+        
     }
     if (SegmentoSeleccionado.text == "Geografia") {
-        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
-        window.location.href = "/juego3";
+        Swal.fire({ text:`Listo para la Trivia de ${SegmentoSeleccionado.text}`})
+        setTimeout(() => {
+            window.location.href = "/juego3";
+        }, 2000);
+        
     }
     if (SegmentoSeleccionado.text == "Deportes") {
-        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
-        window.location.href = "/juego4";
+        Swal.fire({ text:`Listo para la Trivia de ${SegmentoSeleccionado.text}`})
+        setTimeout(() => {
+            window.location.href = "/juego4";
+        }, 2000);
+        
     }
 
     miRuleta.stopAnimation(false);
