@@ -25,8 +25,5 @@ router.get("/juego4", (req, res) =>{
     res.render('juego4')
 });
 
-router.get("/juego5", (req, res) =>{
-    res.render('juego5')
-});
 
 module.exports = router;

@@ -5,11 +5,9 @@ body {
 .form-group {
     margin: 1rem;
 }
-
 input {
     border-radius: 15px !important;
 }
-
 nav {
     display: flex;
     background-color: #fff;
@@ -25,7 +23,6 @@ nav img {
 
 .contenido {
     margin: auto;
-    /* margin-left: 11rem; */
     width: 60%;
 }
 

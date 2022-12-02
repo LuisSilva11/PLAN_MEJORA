@@ -21,19 +21,19 @@ dibujarIndicador();
 function Mensaje() {
     let SegmentoSeleccionado = miRuleta.getIndicatedSegment();
     if (SegmentoSeleccionado.text == "Cultura General") {
-        alert("Listo para la  " + SegmentoSeleccionado.text);
+        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
         window.location.href = "/juego1";
     }
     if (SegmentoSeleccionado.text == "Musica") {
-        alert("Listo para la  " + SegmentoSeleccionado.text);
+        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
         window.location.href = "/juego2";
     }
     if (SegmentoSeleccionado.text == "Geografia") {
-        alert("Listo para la  " + SegmentoSeleccionado.text);
+        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
         window.location.href = "/juego3";
     }
     if (SegmentoSeleccionado.text == "Deportes") {
-        alert("Listo para la  " + SegmentoSeleccionado.text);
+        alert("Listo para la Trivia " + SegmentoSeleccionado.text);
         window.location.href = "/juego4";
     }
 
